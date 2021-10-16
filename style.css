@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+a {
+    color: #e8f1f2;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover {
+    opacity: 0.7;
+}
+a:visited {
+    color: #006494;
+}
+a:visited:hover {
+    color: #e8f1f2;
+    opacity: 0.7;
+}
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    animation-name: animação;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #13293d;
+    height: 8vh;
+}
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+    display: inline;
+}
+body {
+    background-color: #006494;
+}
+section {
+    background-color: #e8f1f2;
+    margin: 25px;
+    padding: 20px;
+}
+article {
+    background-color: #e8f1f2;
+    margin: 25px;
+    padding: 20px;
+}
+.titulo {
+    text-align: center;
+    color: #13293d;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.texto {
+    text-align: justify;
+    color: #13293d;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.midia {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.link {
+    color: #006494;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#site {
+    color: #13293d;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contatos {
+    text-align: center;
+    color: #13293d;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+footer {
+    text-align: center;
+    color: #e8f1f2;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #13293d;
+    padding: 20px;
+}
+@keyframes animação {
+    0% {color: #e8f1f2;}
+    50% {color: #006494;}
+    0% {color: #e8f1f2;}
+}
